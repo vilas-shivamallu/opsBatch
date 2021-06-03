@@ -9,7 +9,7 @@
 body,h1,h5 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-  background-image: url('https://images.pexels.com/photos/1974294/pexels-photo-1974294.jpeg');
+  background-image: url('https://stratus10.com/sites/default/files/styles/slideshow_background_image/public/slideshow/slide/image/devops-automation.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -22,71 +22,58 @@ body, html {height: 100%}
     <p>OpsBatch</p>
   </div>
   <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
-    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+    <p><button onclick="document.getElementById('architecture').style.display='block'" class="w3-button w3-black" style="border: 0.1px solid grey;">Architecture</button></p>
+    <p><button onclick="document.getElementById('about').style.display='block'" class="w3-button w3-black" style="border: 0.1px solid grey;">About</button></p>
   </div>
   <div class="w3-display-bottomleft w3-container">
-    <p class="w3-large">Deviprasad</p>
-    <p class="w3-large">Harpreet</p>
-    <p class="w3-large">Sameer</p>
-    <p class="w3-large">Vilas</p>
-    <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    <p class="w3-xlarge">Deviprasad</p>
+    <p class="w3-xlarge">Harpreet</p>
+    <p class="w3-xlarge">Sameer</p>
+    <p class="w3-xlarge">Vilas</p>
   </div>
 </div>
 
-<!-- Menu Modal -->
-<div id="menu" class="w3-modal">
+<div id="architecture" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="width: 70%;">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('architecture').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Architecture</h1>
+    </div>
+    <div class="w3-container">
+        <img style="width: 100%; height: 100%;" src="../../../../opsBatch.jpg" alt="architecture"></img>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="w3-modal">
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-black w3-display-container">
-      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-      <h1>Starters</h1>
+      <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>About the project</h1>
     </div>
-    <div class="w3-container">
-      <h5>Tomato Soup <b>$2.50</b></h5>
-      <h5>Chicken Salad <b>$3.50</b></h5>
-      <h5>Bread and Butter <b>$1.00</b></h5>
+    <div class="w3-container" style="background-image: url('https://images.pexels.com/photos/1974294/pexels-photo-1974294.jpeg');">
+      <h5></h5>
     </div>
     <div class="w3-container w3-black">
-      <h1>Main Courses</h1>
+      <h1>Git</h1>
     </div>
     <div class="w3-container">
-      <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
-      <h5>Italian Pizza <b>$5.50</b></h5>
-      <h5>Veggie Pasta <b>$4.00</b></h5>
-      <h5>Chicken and Potatoes <b>$6.50</b></h5>
-      <h5>Deluxe Burger <b>$5.00</b></h5>
+      <h5>GitHub is used for code hosting, version control and collaboration.</h5>
     </div>
     <div class="w3-container w3-black">
-      <h1>Desserts</h1>
+      <h1>Jenkins</h1>
     </div>
     <div class="w3-container">
-      <h5>Fruit Salad <b>$2.50</b></h5>
-      <h5>Ice cream <b>$2.00</b></h5>
-      <h5>Chocolate Cake <b>$4.00</b></h5>
-      <h5>Cheese <b>$5.50</b></h5>
+      <h5>Jenkins pipeline is used for automating the building and testing task, so that we can continuously integrate the source code.​</h5>
     </div>
+    <div class="w3-container w3-black">
+      <h1>Docker</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Docker is used to create, deploy, and run applications by using containers that allowed to package up the application with all of the parts it need, such as libraries and other dependencies, and deploy it as one package.​</h5>
+    </div>
+    
   </div>
 </div>
-
-<!-- Contact Modal -->
-<div id="contact" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container w3-black">
-      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-      <h1>Contact</h1>
-    </div>
-    <div class="w3-container">
-      <p>Reserve a table, ask for today's special or just send us a message:</p>
-      <form action="/action_page.php" target="_blank">
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
-      </form>
-    </div>
-  </div>
-</div>
-
 </body>
 </html>
