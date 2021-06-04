@@ -40,7 +40,7 @@ body, html {height: 100%}
       <h1>Architecture</h1>
     </div>
     <div class="w3-container">
-        <img style="width: 100%; height: 100%;" src="../../../../opsBatch.jpg" alt="architecture"></img>
+        <img style="width: 100%; height: 100%;" src="./opsBatch.jpg" alt="architecture"></img>
     </div>
   </div>
 </div>
