@@ -1,2 +1,2 @@
 # opsBatch 09
-DevOps Docker Assignment Demo
+DevOps Docker Assignment
